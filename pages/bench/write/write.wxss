@@ -1,0 +1,20 @@
+/* pages/bench/write/write.wxss */
+.put-question{
+  height:60rpx;
+  width:100%;  
+}
+.question{
+  position: absolute;
+  right:20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  height:60rpx;
+  width:100rpx;
+  color: #FFFFFF;
+  font-size:30rpx;
+  background-color:#24CF5F;
+  border-radius: 6rpx;
+
+}

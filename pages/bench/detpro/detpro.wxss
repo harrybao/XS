@@ -1,0 +1,38 @@
+/* pages/bench/detpro/detpro.wxss */
+.answer{
+  position: fixed;
+  bottom:0rpx;
+  height:100rpx;
+  width:100%;
+  background-color:#24CF5F;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+.answer-list{
+  width:100%;
+}
+.quedetail{
+  height:auto;
+  width:100%;
+  border-bottom:20rpx solid #202020;
+}
+.que-title{
+  display:flex;
+  flex-direction: row;
+}
+.que-middle{
+  height:110rpx;
+  width:100%;
+  
+}
+.answerslist{
+  height:auto;
+  width:100%;
+  border-top:1rpx solid #202020;
+}
+.ansdetail{
+  display:flex;
+  flex-direction:column;
+}

@@ -1,0 +1,35 @@
+<!--pages/bench/detpro/detpro.wxml-->
+<view class='answer-list'>
+  <view class='quedetail'>
+    <view class='que-title'>
+      <image src='../../../imgs/icons/more-que.png' style="height:38rpx;width:38rpx;"></image>
+      <text>集美大学的哪个专业比较好</text>
+    </view>
+    <text>谁可以告知集美大学的那么多专业中，哪个专业是比较好的</text>
+    <view>
+      <text>兵哥</text>
+      <text>9天前</text>
+      <text>160</text>
+    </view>
+  </view>
+  <view class='que-middle'>
+    <image src='../../../imgs/icons/more-answer.png'  style='height:38rpx;width:38rpx;'></image>
+    <text>6条回答</text>
+  </view>
+
+  <view class='answerslist'>
+    <view>
+      <image></image>
+      <view class='ansdetail'>
+        <view>沐语嫣</view>
+        <view>2018-03-19 14：39</view>
+      </view>
+      <view>回复</view>
+    </view>
+  </view>
+</view>
+
+<view class='answer' bindtap="bindtapWrite">
+  <image src='../../../imgs/icons/write.png' style='height:56rpx;width:56rpx;'></image>
+  <text style='color:#FFFFFF;margin-left:20rpx;'>我来回答</text>
+</view>

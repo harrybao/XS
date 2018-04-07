@@ -1,0 +1,12 @@
+<!--pages/home/detail/detail.wxml-->
+<view>
+  <image src='../../../imgs/xmu00.jpg' style='height:40rpx;width:40rpx;'/>
+  <text>厦门大学</text>
+  <text>自强不息 至于至善</text>
+</view>
+
+<view>
+  <view>学校简介</view>
+  <view>fsagdgbladmbl</view>
+</view>
+

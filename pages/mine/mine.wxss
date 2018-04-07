@@ -1,0 +1,57 @@
+/* pages/mine/mine.wxss */
+page{
+  height:100%;
+  width:100%;
+}
+.top-background{
+  height: 440rpx;
+  width: 100%;
+  background-color: #24CF5F;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 28rpx solid #EEEEEE;
+}
+.background-img{
+  height:200rpx;
+  width:200rpx;
+  border:4rpx solid #FFFFFF;
+  background-color: #24CF5F;
+  border-radius: 100rpx;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.tx-img{
+  height:180rpx;
+  width:180rpx;
+  border-radius:90rpx;  
+}
+.strip-title{
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+}
+.head-por{
+  height:100rpx;
+  width:110rpx;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.headline{
+  height:98rpx;
+  width:600rpx;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  border-bottom:2rpx solid #EEEEEE;
+}
+.headedit{
+  margin-left:30rpx;
+  width:510rpx;
+}

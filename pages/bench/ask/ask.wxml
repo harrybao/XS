@@ -1,0 +1,8 @@
+<!--pages/bench/ask/ask.wxml-->
+<view class='put-question'>
+  <view class='question' bindtap='bindtapSubmit' >提交</view>
+</view>
+<view>
+  <input placeholder='输入标题'></input>
+  <textarea class="program-write-main" fixed="true" maxlength="2000" placeholder="问题内容" bindinput="inputMsg"></textarea>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/comp/comp.wxml-->
+<view>
+  <view class='comp-list' style='background-color:red;'>历年分数线</view>
+  <view class='comp-list' style='background-color:green;'>分数走势</view>
+  <view class='comp-list' style='background-color:red;'>专业分数线</view>
+  <view class='comp-list' style='background-color:yellow;'>学院设置</view>
+  <view class='comp-list' style='background-color:red;'>历年高考分数线</view>
+  <view class='comp-list' style='background-color:blue;'>志愿填报指南</view>
+</view>

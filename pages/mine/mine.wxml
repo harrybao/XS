@@ -1,0 +1,38 @@
+<!--pages/mine/mine.wxml-->
+<view class="top-background">
+  <view>
+    <view class="background-img">
+      <image src='../../imgs/txmb.jpg' class="tx-img"></image>
+    </view>
+  </view>
+  <view>木小鱼</view>
+</view>
+
+<view class='strip-title'>
+  <view class='head-por'>
+    <image src='../../imgs/icons/news.png' style='height:60rpx;width:60rpx;' />
+  </view>
+  <view class='headline'>
+    <text class='headedit'>我的消息</text>
+    <image src='../../imgs/icons/arrows.png' style='height:60rpx;width:60rpx;'/>
+  </view>
+</view>
+
+<view class='strip-title'>
+  <view class='head-por'>
+    <image src='../../imgs/icons/quetion.png' style='height:60rpx;width:60rpx;' />
+  </view>
+  <view class='headline'>
+    <text class='headedit'>我的问答</text>
+    <image src='../../imgs/icons/arrows.png' style='height:60rpx;width:60rpx;'/>
+  </view>
+</view>
+<view class='strip-title'>
+  <view class='head-por'>
+    <image src='../../imgs/icons/news.png' style='height:60rpx;width:60rpx;' />
+  </view>
+  <view class='headline'>
+    <text class='headedit'>我的消息</text>
+    <image src='../../imgs/icons/arrows.png' style='height:60rpx;width:60rpx;'/>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+/* pages/comp/comp.wxss */
+.comp-list{
+  height:200rpx;
+  width:200rpx;
+  float: left;
+  margin-left:20rpx;
+  margin-top:10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
