@@ -6,61 +6,47 @@ Page({
    * 页面的初始数据
    */
   data: {
-    apiUrl:apiUrl,
-    imageWidth: wx.getSystemInfoSync().windowWidth,
-    imgUrls: [
-      { route: '../../imgs/img02.jpg' },
-      { route: '../../imgs/img01.jpg' }
-    ],
-    interval: 3000,
-    duration: 1000,
+    apiUrl:apiUrl,   
     college:[
       {
         colimg:"../../imgs/jmu01.jpg",
         colname:"集美大学",
-        colmotto:"诚以待人，毅以处事",
         coladd:"厦门市集美区银江路185号",
         colicon:"../../imgs/jmu.jpg"
       },
       {
         colimg: "../../imgs/xmu.jpg",
         colname: "厦门大学",
-        colmotto: "诚以待人，毅以处事",
         coladd: "厦门市思明区思明南路422号",
         colicon: "../../imgs/xmu00.jpg"
       },
       {
         colimg: "../../imgs/fzu01.jpg",
         colname: "福州大学",
-        colmotto: "诚以待人，毅以处事",
         coladd: "福州市闽侯县大学新区学园路2号",
         colicon: "../../imgs/fzu.jpg"
       },
       {
         colimg: "../../imgs/xmu.jpg",
         colname: "厦门大学",
-        colmotto: "诚以待人，毅以处事",
         coladd: "厦门市思明区思明南路422号",
         colicon: "../../imgs/xmu00.jpg"
       },
       {
         colimg: "../../imgs/jmu01.jpg",
         colname: "集美大学",
-        colmotto: "诚以待人，毅以处事",
         coladd: "厦门市集美区银江路185号",
         colicon: "../../imgs/jmu.jpg"
       },
       {
         colimg: "../../imgs/xmu.jpg",
         colname: "厦门大学",
-        colmotto: "诚以待人，毅以处事",
         coladd: "厦门市思明区思明南路422号",
         colicon: "../../imgs/xmu00.jpg"
       },
       {
         colimg: "../../imgs/jmu01.jpg",
         colname: "集美大学",
-        colmotto: "诚以待人，毅以处事",
         coladd: "厦门市集美区银江路185号",
         colicon: "../../imgs/jmu.jpg"
       }
@@ -72,12 +58,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: apiUrl,
-      success:function(res){
-        console.log(res.data)
-      }
-    })
+    // wx.request({
+    //   url: apiUrl,
+    //   success:function(res){
+    //     console.log(res.data)
+    //   }
+    // })
   },
 
   /**

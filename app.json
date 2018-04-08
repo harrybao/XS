@@ -21,26 +21,26 @@
     "list": [{
       "pagePath": "pages/home/home",
       "text": "首页",
-      "iconPath": "imgs/icons/home.png",
-      "selectedIconPath": "imgs/icons/home_fill.png"
+      "iconPath": "imgs/home.png",
+      "selectedIconPath": "imgs/home_fill.png"
     },
     {
       "pagePath": "pages/comp/comp",
       "text": "综合",
-      "iconPath": "imgs/icons/manage.png",
-      "selectedIconPath": "imgs/icons/manage_fill.png"
+      "iconPath": "imgs/manage.png",
+      "selectedIconPath": "imgs/manage_fill.png"
     },
     {
       "pagePath": "pages/bench/bench",
       "text": "问答",
-      "iconPath": "imgs/icons/prob.png",
-      "selectedIconPath": "imgs/icons/prob_fill.png"
+      "iconPath": "imgs/prob.png",
+      "selectedIconPath": "imgs/prob_fill.png"
     },
     {
       "pagePath": "pages/mine/mine",
       "text": "我的",
-      "iconPath": "imgs/icons/mine.png",
-      "selectedIconPath": "imgs/icons/mine_fill.png"
+      "iconPath": "imgs/mine.png",
+      "selectedIconPath": "imgs/mine_fill.png"
     }]
   }
 }

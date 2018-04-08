@@ -10,29 +10,29 @@
 
 <view class='strip-title'>
   <view class='head-por'>
-    <image src='../../imgs/icons/news.png' style='height:60rpx;width:60rpx;' />
+    <image src='../../imgs/news.png' style='height:60rpx;width:60rpx;' />
   </view>
   <view class='headline'>
     <text class='headedit'>我的消息</text>
-    <image src='../../imgs/icons/arrows.png' style='height:60rpx;width:60rpx;'/>
+    <image src='../../imgs/arrows.png' style='height:60rpx;width:60rpx;'/>
   </view>
 </view>
 
 <view class='strip-title'>
   <view class='head-por'>
-    <image src='../../imgs/icons/quetion.png' style='height:60rpx;width:60rpx;' />
+    <image src='../../imgs/quetion.png' style='height:60rpx;width:60rpx;' />
   </view>
   <view class='headline'>
     <text class='headedit'>我的问答</text>
-    <image src='../../imgs/icons/arrows.png' style='height:60rpx;width:60rpx;'/>
+    <image src='../../imgs/arrows.png' style='height:60rpx;width:60rpx;'/>
   </view>
 </view>
 <view class='strip-title'>
   <view class='head-por'>
-    <image src='../../imgs/icons/news.png' style='height:60rpx;width:60rpx;' />
+    <image src='../../imgs/news.png' style='height:60rpx;width:60rpx;' />
   </view>
   <view class='headline'>
     <text class='headedit'>我的消息</text>
-    <image src='../../imgs/icons/arrows.png' style='height:60rpx;width:60rpx;'/>
+    <image src='../../imgs/arrows.png' style='height:60rpx;width:60rpx;'/>
   </view>
 </view>

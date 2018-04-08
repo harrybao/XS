@@ -14,7 +14,11 @@
   margin-top:-40rpx;
   border-radius:50rpx;
 }
-
+.school-card{
+  width:100%;
+  height:auto;
+  border-radius: 10rpx;
+}
 .college-name{
   margin-top:10rpx;
   margin-left:30rpx;

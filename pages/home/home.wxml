@@ -1,23 +1,16 @@
 <!--pages/home/home.wxml-->
-<swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" style='height: 400rpx;'>
-  <block wx:for="{{imgUrls}}" wx:key="key">
-    <swiper-item>
-      <image src="{{item.route}}" class="slide-image" style="width: {{imageWidth}}px;" />
-    </swiper-item>
-  </block>
-</swiper>
+
 
 <view>
-  <view class="title">站长推荐</view>
+  <view class="title">推荐报考</view>
   
-  <view wx:for="{{college}}" wx:key="key">
+  <view class='school-card' wx:for="{{college}}" wx:key="key">
   <navigator open-type='navigate' url='detail/detail'>
     <image src='{{item.colimg}}' style='height:460rpx;width:100%;'/>
     <view style='height:124rpx; width:100%;display:flex;flex-direction:row;'>
       <view style='display:flex;flex-direction:column;'>
         <view>
           <text class="college-name">{{item.colname}}</text>
-          <text class="college-motto">{{item.colmotto}}</text>
         </view>
         
         <text class="college-add">{{item.coladd}}</text>

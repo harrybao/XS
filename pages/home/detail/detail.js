@@ -5,6 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
+    imageWidth: wx.getSystemInfoSync().windowWidth,
+    imgUrls: [
+      { route: '../../../imgs/img02.jpg' },
+      { route: '../../../imgs/img01.jpg' }
+    ],
+    interval: 3000,
+    duration: 1000,
+    winWidth: 0,
+    winHeight: 0,
+    currentTab: 0,
   
   },
 
@@ -12,9 +22,38 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this;
+
+    wx.getSystemInfo({
+
+      success: function (res) {
+        that.setData({
+          winWidth: res.windowWidth,
+          winHeight: res.windowHeight
+        });
+      }
+
+    });
+  },
+  bindChange: function (e) {
+
+    var that = this;
+    that.setData({ currentTab: e.detail.current });
+
   },
 
+  swichNav: function (e) {
+
+    var that = this;
+
+    if (this.data.currentTab === e.target.dataset.current) {
+      return false;
+    } else {
+      that.setData({
+        currentTab: e.target.dataset.current
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

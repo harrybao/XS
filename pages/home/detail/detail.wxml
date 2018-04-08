@@ -1,12 +1,34 @@
 <!--pages/home/detail/detail.wxml-->
-<view>
-  <image src='../../../imgs/xmu00.jpg' style='height:40rpx;width:40rpx;'/>
-  <text>厦门大学</text>
-  <text>自强不息 至于至善</text>
-</view>
+<swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" style='height: 400rpx;border-bottom:16rpx soild red;'>
+  <block wx:for="{{imgUrls}}" wx:key="key">
+    <swiper-item>
+      <image src="{{item.route}}" class="slide-image" style="width: {{imageWidth}}px;" />
+    </swiper-item>
+  </block>
+</swiper>
 
-<view>
-  <view>学校简介</view>
-  <view>fsagdgbladmbl</view>
-</view>
+<view class="swiper-tab"> 
+  <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">基本信息</view> 
+  <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">学校简介</view> 
+  <view class="swiper-tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">学院设置</view> 
+  <view class="swiper-tab-item {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">专业介绍</view>
+  
+</view> 
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 480}}px" bindchange="bindChange"> 
+  <swiper-item> 
+   <view>学校简介</view>
+  </swiper-item> 
+  <swiper-item> 
+   <view>最新提问</view> 
+  </swiper-item> 
+  <swiper-item> 
+   <view>等待回答</view> 
+  </swiper-item> 
+  <swiper-item> 
+   <view>等待回答</view> 
+  </swiper-item>
+</swiper>
+
+
+
 

@@ -18,24 +18,42 @@
   border-radius: 6rpx;
 
 }
-.swiper-tab{ 
-  width: 100%; 
-  border-bottom: 2rpx solid #eeeeee; 
-  text-align: center; 
-  line-height: 80rpx;} 
-.swiper-tab-item{ font-size: 30rpx; 
-  display: inline-block; 
-  width: 33.33%; 
-  color: #666666; 
-} 
-.on{ color: #24CF5F; 
-  border-bottom: 5rpx solid #24CF5F;} 
- 
-.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; } 
-.swiper-box view{ 
-  text-align: center; 
-} 
+.que-global{
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quetioner{
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+}
+.que-card{
+  width:720rpx;
+  height:auto;
+  border:2rpx solid #24CF5F;
+  border-radius: 8rpx;
+}
+.que-label{
+  height:90rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #24CF5F;
+}
+.que-tag{
+  height:88rpx;
+  width:247rpx;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
 .icons{
-  height:35rpx;
-  width:35rpx;
+  height:50rpx;
+  width:50rpx;
 }

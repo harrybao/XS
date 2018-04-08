@@ -1,48 +1,32 @@
 <!--pages/bench/bench.wxml-->
 <view class='put-question'>
-  <view class='question' bindtap='bindtapAsk' >提问</view>
+  <view class='question' bindtap='bindtapAsk'>提问</view>
 </view>
-<view class="swiper-tab"> 
-  <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">最近提问</view> 
-  <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">最新提问</view> 
-  <view class="swiper-tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">等待回答</view> 
-</view> 
- 
-<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 80}}px" bindchange="bindChange"> 
-  <swiper-item> 
-   <view style='height:auto;width:100%;display:flex;flex-direction:row;justify-content:center;'>
-   <navigator open-type='navigate' url='detpro/detpro'>
-     <view style='height:auto;width:100%;'>
-    <view style='height:200rpx;width:100%;border-bottom:1rpx solid #bfbfbf;'>
-      <view style='height:120rpx;width:100%;'>请问纷纷独立声卡</view>
 
-      <view style='display:flex;flex-direction:row;items-content: center;'>
-        <view style='display:flex;flex-direction:row;width:600rpx;'>
-          <image src='../../imgs/icons/clock.png' class='icons'/>
-          <text style='font-size:25rpx;'>1小时前</text>
-        </view>
-        <view style='display:flex;flex-direction:row;float:right;'>
-          <image src='../../imgs/icons/ping.png' class='icons'/>
-          <text style='font-size:25rpx;'>1</text>
-        </view>
-        <view style='display:flex;flex-direction:row;float:right;'>
-          <image src='../../imgs/icons/chak.png' class='icons'/>
-          <text style='font-size:25rpx;'>10</text>
-        </view>
+<view class='que-global'>
 
+  <view class='que-card' wx:for="{{quetions}}" wx:key="key">
+  <navigator open-type='navigate' url='detpro/detpro'>
+    <view class='quetioner'>
+      <image src='{{item.head}}' style='height:80rpx;width:80rpx;'/>
+      <text>{{item.tittle}}</text>
+    </view>
+    <view class='que-label'>
+      <view class='que-tag'>
+        <image src='../../imgs/clock.png' class='icons'/>
+        <view>{{item.time}}</view>
+      </view>
+      <view class='que-tag'>
+        <image src='../../imgs/ping.png' class='icons'/>
+        <view>{{anwsers}}</view>
+      </view>
+      <view class='que-tag'>
+        <image src='../../imgs/chak.png' class='icons'/>
+        <view>{{item.views}}</view>
       </view>
     </view>
-
-    </view>
   </navigator>
- 
+    
+  </view>
 
-</view> 
-  </swiper-item> 
-  <swiper-item> 
-   <view>最新提问</view> 
-  </swiper-item> 
-  <swiper-item> 
-   <view>等待回答</view> 
-  </swiper-item> 
-</swiper> 
+</view>
